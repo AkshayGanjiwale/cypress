@@ -1,0 +1,24 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "automation practice",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cype\bress\b\b\b\b\b\b\b"
+  },
+  "keywords": [
+    "e2e"
+  ],
+  "author": "ashay\b\b\b\bkshay",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
