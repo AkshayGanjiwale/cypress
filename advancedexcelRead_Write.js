@@ -1,6 +1,6 @@
 const Exceljs = require('exceljs')
 
-async function excelTest(searchText,replaceText,filePath)
+async function writeExcelTest(searchText,replaceText,filePath)
 {
     
     const workbook = new Exceljs.Workbook
@@ -28,4 +28,4 @@ async function readExcel(worksheet,searchText){
     })
     return output
 }
-excelTest("Kivi","Healthy","C:/Users/ITH/Documents/cypress_excel_testsheet.xlsx")
+writeExcelTest("Kivi","Healthy","C:/Users/ITH/Documents/cypress_excel_testsheet.xlsx")

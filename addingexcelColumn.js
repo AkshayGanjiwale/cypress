@@ -1,6 +1,6 @@
 const Exceljs = require('exceljs')
 // traversing from mango to 2 columns ahead to update the value
-async function excelTest(searchText,replaceText,change,filePath)
+async function writeExcelTest(searchText,replaceText,change,filePath)
 {
     
     const workbook = new Exceljs.Workbook
@@ -28,4 +28,4 @@ async function readExcel(worksheet,searchText){
     })
     return output
 }
-excelTest("Mango","350",{rowchange:0,colChange:2},"C:/Users/ITH/Documents/cypress_excel_testsheet.xlsx")
+writeExcelTest("Mango","350",{rowchange:0,colChange:2},"C:/Users/ITH/Documents/cypress_excel_testsheet.xlsx")
